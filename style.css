@@ -1,0 +1,49 @@
+/* Простой Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+/* Простой Reset */
+.wrapper {
+  max-width: 1920px;
+  max-height: 4684px;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  /* padding: 0 20px; */
+}
+
+/* Header */
+.header {
+  max-width: 1920px;
+  max-height: 1080px;
+  background-color: #267026;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #141024;
+  color: white;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
