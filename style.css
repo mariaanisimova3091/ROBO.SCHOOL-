@@ -47,3 +47,26 @@ body {
   display: flex;
   gap: 40px;
 }
+/* hero */
+.hero {
+  max-width: 1920px;
+  max-height: 100px;
+  padding-left: 380px;
+  padding-right: 213px;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #141024;
+  color: white;
+}
+
+.hero-girl {
+  max-width: 516px;
+  max-height: 917px;
+}
+/* .hero-ellipse {
+  max-width: 783px;
+  max-height: 783px;
+} */
